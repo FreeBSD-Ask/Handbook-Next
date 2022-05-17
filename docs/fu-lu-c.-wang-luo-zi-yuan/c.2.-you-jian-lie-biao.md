@@ -19,7 +19,7 @@ https://wakatime.com/
 |名单|用途|
 |:---:|:---:|
 |[freebsd-advocacy](https://lists.freebsd.org/subscription/freebsd-advocacy)|报道 FreeBSD|
-|[freebsd-announce](https://lists.freebsd.org/subscription/freebsd-announce)|重要事件和项目里程碑（主持）。|
+|[freebsd-announce](https://lists.freebsd.org/subscription/freebsd-announce)|重要事件和项目里程碑（有主持人）。|
 |[freebsd-arch](https://lists.freebsd.org/subscription/freebsd-arch)|建筑和设计讨论|
 |[freebsd-bugbusters](https://lists.freebsd.org/subscription/freebsd-bugbusters)|与维护 FreeBSD 问题报告数据库和相关工具有关的讨论|
 |[freebsd-bugs](https://lists.freebsd.org/subscription/freebsd-bugs)|错误报告|
