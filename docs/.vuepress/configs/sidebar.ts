@@ -12,6 +12,10 @@ export const sideBarConfig: SidebarConfig = [
     children: ["/README.md", "/freebsd-shou-ce.md", "/gai-shu.md"],
   },
   {
+    text: "第一部分：快速开始",
+    children: ["/di-yi-bu-fen-kuai-su-kai-shi.md"],
+  },
+  {
     text: "前言",
     children: [
       "/qian-yan/mu-biao-shou-zhong.md",
