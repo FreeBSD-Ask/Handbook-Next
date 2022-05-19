@@ -15,7 +15,7 @@ export default defineUserConfig({
   description: "FreeBSD 简体中文手册",
 
   theme: defaultTheme({
-    logo: "https://vuejs.org/images/logo.png",
+    logo: "https://handbook-next.freebsdcn.org/favicon.ico",
     sidebar: sideBarConfig,
   }),
 
