@@ -4,6 +4,7 @@
  * @copyright Copyright (c) 2022 FreeBSD Chinese Community. All rights reserved.
  */
 
+import { searchPlugin } from "@vuepress/plugin-search";
 import { defaultTheme } from "vuepress";
 import { defineUserConfig } from "vuepress";
 import { sideBarConfig } from "./configs";
@@ -18,5 +19,13 @@ export default defineUserConfig({
     sidebar: sideBarConfig,
   }),
 
-  plugins: [],
+  plugins: [
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        },
+      },
+    }),
+  ],
 });
