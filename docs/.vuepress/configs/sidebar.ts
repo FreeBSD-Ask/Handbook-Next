@@ -379,7 +379,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: "第29章：电子邮件",
+    text: "第29章 电子邮件",
     children: [
       "/di-29-zhang-dian-zi-you-jian/29.1.-gai-shu.md",
       "/di-29-zhang-dian-zi-you-jian/29.2.-you-jian-zu-jian.md",
