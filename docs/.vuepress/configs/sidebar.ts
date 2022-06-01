@@ -329,10 +329,11 @@ export const sideBarConfig: SidebarConfig = [
     children: [
       "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.1.-gai-shu.md",
       "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.2.-freebsd-geng-xin.md",
-      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.3.-geng-xin-wen-dang-ji.md",
-      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.4.-zhui-zong-kai-fa-fen-zhi.md",
-      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.5.-cong-yuan-dai-ma-geng-xin-freebsd.md",
-      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.6.-duo-tai-ji-qi-de-sheng-ji.md",
+      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.3.-geng-xin-bootcode.md",
+      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.4.-geng-xin-wen-dang-ji.md",
+      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.5.-zhui-zong-kai-fa-fen-zhi.md",
+      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.6.-cong-yuan-dai-ma-geng-xin-freebsd.md",
+      "/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.7.-duo-tai-ji-qi-de-sheng-ji.md",
     ],
   },
   {
