@@ -75,7 +75,7 @@ export const sideBarConfig: SidebarConfig = [
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.2.-ruan-jian-an-zhuang-de-gai-shu.md",
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.3.-xun-zhao-suo-xu-de-ying-yong-cheng-xu.md",
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.4.-shi-yong-pkg-jin-hang-er-jin-zhi-bao-guan-li.md",
-      "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.5.-shi-yong-ports-collection.md",
+      "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.5.-shi-yong-ports.md",
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.6.-shi-yong-poudriere-gou-jian-ruan-jian-bao.md",
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.7.-an-zhuang-hou-de-zhu-yi-shi-xiang.md",
       "/di-4-zhang-an-zhuang-ying-yong-cheng-xu-package-he-port/4.8.-ru-he-chu-li-sun-huai-de-port.md",
