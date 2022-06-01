@@ -7,55 +7,53 @@
  
 # 译者
 
-|章节|译者|备注|
-|:---:|:---:|:---:|
-|前言|ykla||
-|第 1 章：简介|ykla||
-|第 2 章：安装 FreeBSD|ykla||
-|3.1-3.2|ykla|第 3 章：FreeBSD 基础|
-|3.3-EOL|亲爱的翻译官|第 3 章：FreeBSD 基础|
-|第 4 章：安装应用程序: Package 和 Port|亲爱的翻译官||
-|5.1-5.2|ykla|实际工作由 ykla 完成|
-|5.3-5.4.6|冰|重译者|
-|5.4.6-EOL|Lin🌠|第 5 章：X Window 系统|
-|第 6 章：桌面应用程序|胞嘧啶||
-|第 7 章：多媒体|无目先生||
-|第 8 章：配置 FreeBSD 内核|Jasonlecson||
-|9.1-9.4|潇潇雨竹|第 9 章：打印|
-|9.5-EOL|ulianchn38|第 9 章：打印|
-|10.1|Altair|第 10 章：Linux 二进制兼容层|
-|10.2-EOL|AjiaErin|第 10 章：Linux 二进制兼容层|
-|第 11 章：wine|Jasonlecson||
-|第 12 章：设置和调整|胞嘧啶||
-|第 13 章：FreeBSD 的启动过程|徐艺扬||
-|第 14 章：安全|陈诚||
-|第 15 章：Jail|陈诚||
-|第 16 章：强制访问控制|陈诚||
-|第 17 章：安全事件审计|冰||
-|第 18 章：存储|Jasonlecson||
-|第 19 章：GEOM: 模块化磁盘转换框架|Jasonlecson||
-|第 20 章：Z 文件系统 (ZFS)|徐艺扬、冰||
-|第 21 章：其他文件系统|Jasonlecson||
-|第 22 章：虚拟化|歸野鴿||
-|第 23 章：本地化 - i18n/L10n 的使用和设置|郴||
-|第 24 章：更新与升级 FreeBSD|AjiaErin||
-|第 25 章：DTrace|歸野鴿||
-|第 26 章：USB Device 模式 / USB OTG|Jasonlecson||
-|第 27 章：串行通信|胞嘧啶||
-|第 28 章：PPP|AjiaErin||
-|第 29 章：电子邮件|AjiaErin||
-|第 30 章：网络服务器|陈诚||
-|第 31 章：防火墙|陈诚||
-|第 32 章：高级网络|陈诚||
-|附录 A：获取 FreeBSD|亲爱的翻译官||
-|附录 B：书目|ykla||
-|附录 C：网络资源|亲爱的翻译官||
-|附录 D：OpenPGP 密钥|ykla||
-|术语表|亲爱的翻译官||
+|章节|译者|备注|校对ykla|
+|:---:|:---:|:---:|:---:|
+|前言|ykla||ykla、魔王酱|
+|第 1 章：简介|ykla||ykla、魔王酱|
+|第 2 章：安装 FreeBSD|ykla||ykla、ulianchn38、歸野鴿|
+|3.1-3.2|ykla|第 3 章：FreeBSD 基础|ykla|
+|3.3-EOL|亲爱的翻译官|第 3 章：FreeBSD 基础|ykla、歸野鴿|
+|第 4 章：安装应用程序: Package 和 Port|亲爱的翻译官||ykla|
+|5.1-5.2|ykla|翻译工作实际由 ykla 完成|ykla、ulianchn38、冰|
+|5.3-5.4.6|冰|重译者|ykla、ulianchn38、冰|
+|5.4.6-EOL|Lin🌠|第 5 章：X Window 系统|ykla、ulianchn38、冰|
+|第 6 章：桌面应用程序|胞嘧啶||ykla|
+|第 7 章：多媒体|无目先生||ykla|
+|第 8 章：配置 FreeBSD 内核|Jasonlecson||ykla、冰|
+|9.1-9.4|潇潇雨竹|第 9 章：打印|ykla|
+|9.5-EOL|ulianchn38|第 9 章：打印|ykla、ulianchn38|
+|10.1|Altair|第 10 章：Linux 二进制兼容层|ykla|
+|10.2-EOL|AjiaErin|第 10 章：Linux 二进制兼容层|ykla、冰|
+|第 11 章：wine|Jasonlecson||ykla、冰|
+|第 12 章：设置和调整|胞嘧啶||ykla、冰|
+|第 13 章：FreeBSD 的启动过程|徐艺扬||ykla、冰、歸野鴿|
+|第 14 章：安全|陈诚||ykla、冰|
+|第 15 章：Jail|陈诚||ykla、冰|
+|第 16 章：强制访问控制|陈诚||ykla、冰|
+|第 17 章：安全事件审计|冰||ykla、冰、歸野鴿|
+|第 18 章：存储|Jasonlecson||ykla、冰|
+|第 19 章：GEOM: 模块化磁盘转换框架|Jasonlecson||ykla、冰|
+|第 20 章：Z 文件系统 (ZFS)|徐艺扬、冰||ykla、冰、ulianchn38|
+|第 21 章：其他文件系统|Jasonlecson||ykla|
+|第 22 章：虚拟化|歸野鴿||ykla、冰|
+|第 23 章：本地化 - i18n/L10n 的使用和设置|郴||ykla、冰|
+|第 24 章：更新与升级 FreeBSD|AjiaErin||ykla|
+|第 25 章：DTrace|歸野鴿||ykla、冰|
+|第 26 章：USB Device 模式 / USB OTG|Jasonlecson||ykla|
+|第 27 章：串行通信|胞嘧啶||ykla、冰|
+|第 28 章：PPP|AjiaErin||ykla、冰|
+|第 29 章：电子邮件|AjiaErin||ykla、冰|
+|第 30 章：网络服务器|陈诚||ykla、冰|
+|第 31 章：防火墙|陈诚||ykla、冰|
+|第 32 章：高级网络|陈诚||ykla、冰|
+|附录 A：获取 FreeBSD|亲爱的翻译官||ykla|
+|附录 B：书目|ykla||ykla|
+|附录 C：网络资源|亲爱的翻译官||ykla|
+|附录 D：OpenPGP 密钥|ykla||ykla|
+|术语表|亲爱的翻译官||ykla|
 
-未标明章节或内容由 ykla 翻译。
-
-校对者：ykla、ulianchn38 、冰、魔王酱、胞嘧啶、歸野鴿
+>**注意：未标明章节或内容由 ykla 翻译。名单排序以提交的先后顺序为准。**
 
 
 # Q & A
