@@ -22,7 +22,7 @@ export default defineUserConfig({
   plugins: [
     fullTextSearchPlugin,
     googleAnalyticsPlugin({
-      id: "G-JJRKFX86Z7",
+      id: 'G-JJRKFX86Z7',
     }),
   ],
 });
