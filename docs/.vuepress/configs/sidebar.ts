@@ -410,7 +410,7 @@ export const sideBarConfig: SidebarConfig = [
       "/di-30-zhang-wang-luo-fu-wu-qi/30.9.-wen-jian-chuan-shu-xie-yi-ftp.md",
       "/di-30-zhang-wang-luo-fu-wu-qi/30.10.-yong-yu-microsoft-windows-ke-hu-duan-de-wen-jian-he-da-yin-fu-wu-samba.md",
       "/di-30-zhang-wang-luo-fu-wu-qi/30.11.-yong-ntp-jin-hang-shi-zhong-tong-bu.md",
-      "/di-30-zhang-wang-luo-fu-wu-qi/30.12.-iscsi-qi-dong-qi-he-mu-biao-ji-qi-pei-zhi.md",
+      "/di-30-zhang-wang-luo-fu-wu-qi/30.12.iscsi-target-he-initiator-de-pei-zhi.md",
     ],
   },
   {
