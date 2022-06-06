@@ -430,7 +430,7 @@ export const sideBarConfig: SidebarConfig = [
       "/di-32-zhang-gao-ji-wang-luo/32.1.-gai-shu.md",
       "/di-32-zhang-gao-ji-wang-luo/32.2.-wang-guan-he-lu-you.md",
       "/di-32-zhang-gao-ji-wang-luo/32.3.-wu-xian-wang-luo.md",
-      "/di-32-zhang-gao-ji-wang-luo/32.4.-usb-tethering.md",
+      "/di-32-zhang-gao-ji-wang-luo/32.4.usb-wang-luo-gong-xiang.md",
       "/di-32-zhang-gao-ji-wang-luo/32.5.-lan-ya.md",
       "/di-32-zhang-gao-ji-wang-luo/32.6.-qiao-jie.md",
       "/di-32-zhang-gao-ji-wang-luo/32.7.-lian-jie-ju-he-he-gu-zhang-zhuan-yi.md",
