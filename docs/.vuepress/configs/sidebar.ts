@@ -384,7 +384,7 @@ export const sideBarConfig: SidebarConfig = [
     children: [
       "/di-29-zhang-dian-zi-you-jian/29.1.-gai-shu.md",
       "/di-29-zhang-dian-zi-you-jian/29.2.-you-jian-zu-jian.md",
-      "/di-29-zhang-dian-zi-you-jian/29.3.-sendmail-pei-zhi-wen-jian.md",
+      "/di-29-zhang-dian-zi-you-jian/29.3.sendmail-pei-zhi-wen-jian.md",
       "/di-29-zhang-dian-zi-you-jian/29.4.-gai-bian-you-jian-chuan-shu-dai-li.md",
       "/di-29-zhang-dian-zi-you-jian/29.5.-gu-zhang-pai-chu.md",
       "/di-29-zhang-dian-zi-you-jian/29.6.-gao-ji-zhu-ti.md",
