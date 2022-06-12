@@ -59,7 +59,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-3-zhang-freebsd-ji-chu/3.3.-yong-hu-he-ji-ben-zhang-hu-guan-li.md',
       '/di-3-zhang-freebsd-ji-chu/3.4.-quan-xian.md',
       '/di-3-zhang-freebsd-ji-chu/3.5.-mu-lu-jie-gou.md',
-      '/di-3-zhang-freebsd-ji-chu/3.6.-ci-pan-zu-zhi.md',
+      '/di-3-zhang-freebsd-ji-chu/3.6.-ci-pan-jie-gou.md',
       '/di-3-zhang-freebsd-ji-chu/3.7.-wen-jian-xi-tong-de-gua-zai-yu-xie-zai.md',
       '/di-3-zhang-freebsd-ji-chu/3.8.-jin-cheng-he-shou-hu-jin-cheng.md',
       '/di-3-zhang-freebsd-ji-chu/3.9.shell.md',
