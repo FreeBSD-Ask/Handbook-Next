@@ -19,7 +19,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
-    lastUpdated: 'true',
+    lastUpdated: true,
+    lastUpdatedText: 'Last Updated',
   }),
   
   plugins: [
