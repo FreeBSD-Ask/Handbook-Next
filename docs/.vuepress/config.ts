@@ -7,7 +7,8 @@
 import {googleAnalyticsPlugin} from '@vuepress/plugin-google-analytics';
 import {defaultTheme, defineUserConfig} from 'vuepress';
 import {fullTextSearchPlugin} from 'vuepress2-plugin-full-text-search';
-import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
+import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
+import {plugins.sitemap.modifyTimeGetter} from 'vuepress-plugin-sitemap2';
 
 import {sideBarConfig} from './configs';
     
