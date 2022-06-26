@@ -22,7 +22,7 @@ export default defineUserConfig({
     sidebar: sideBarConfig,
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdatedText: '上次更新',
-    contributorsText: '贡献者', 
+    contributorsText: '贡献者'
   }),
   
   plugins: [
@@ -31,7 +31,7 @@ export default defineUserConfig({
       id: 'G-JJRKFX86Z7',
     }),
     sitemapPlugin({
-      hostname: 'https://handbook.bsdcn.org',
-    }),
+      hostname: 'https://handbook.bsdcn.org'
+    })
   ],
 });
