@@ -20,6 +20,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
+    lastUpdated: true,
     lastUpdatedText: '上次更新',
   }),
   
