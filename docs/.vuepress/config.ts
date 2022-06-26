@@ -5,7 +5,8 @@
  */
 
 import {googleAnalyticsPlugin} from '@vuepress/plugin-google-analytics';
-import {defaultTheme, defineUserConfig} from 'vuepress';
+import {defineUserConfig} from 'vuepress';
+import {defaultTheme} from '@vuepress/theme-default';
 import {fullTextSearchPlugin} from 'vuepress2-plugin-full-text-search';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
 
