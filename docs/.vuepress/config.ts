@@ -9,6 +9,7 @@ import {defineUserConfig} from 'vuepress';
 import {defaultTheme} from '@vuepress/theme-default';
 import {fullTextSearchPlugin} from 'vuepress2-plugin-full-text-search';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
+import { seoPlugin } from "vuepress-plugin-seo2";
 
 import {sideBarConfig} from './configs';
     
@@ -35,6 +36,9 @@ export default defineUserConfig({
     }),
     sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
-    })
+    }),
+    seoPlugin({
+        
+    }),
   ],
 });
