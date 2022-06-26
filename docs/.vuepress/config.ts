@@ -26,8 +26,9 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-JJRKFX86Z7',
     }),
-     sitemapPlugin({
+    sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
+      modifyTimeGetter: (page) => fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
     }),
 
   ],
