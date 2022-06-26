@@ -20,6 +20,9 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
+    docsRepo: 'https://github.com/FreeBSD-Ask/Handbook',
+    docsBranch: 'main',
+    editLinkPattern: ':repo/edit/:branch/:path',
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者'
@@ -31,7 +34,7 @@ export default defineUserConfig({
       id: 'G-JJRKFX86Z7',
     }),
     sitemapPlugin({
-      hostname: 'https://handbook.bsdcn.org'
+      hostname: 'https://handbook.bsdcn.org',
     })
   ],
 });
