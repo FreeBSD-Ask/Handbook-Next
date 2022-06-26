@@ -38,6 +38,7 @@ export default defineUserConfig({
       hostname: 'https://handbook.bsdcn.org',
     }),
     seoPlugin({
+      hostname: 'https://handbook.bsdcn.org',
     }),
   ],
 });
