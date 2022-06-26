@@ -23,7 +23,7 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/FreeBSD-Ask/Handbook',
     docsBranch: 'main',
     editLinkPattern: ':repo/edit/:branch/:path',
-    editLinkText: '在 GitHub 上编辑此页',
+    editLinkText: '在 GitHub 上校对此页',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者'
   }),
