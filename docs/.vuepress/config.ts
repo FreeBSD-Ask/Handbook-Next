@@ -8,7 +8,6 @@ import {googleAnalyticsPlugin} from '@vuepress/plugin-google-analytics';
 import {defaultTheme, defineUserConfig} from 'vuepress';
 import {fullTextSearchPlugin} from 'vuepress2-plugin-full-text-search';
 import {sitemapPlugin} from 'vuepress-plugin-sitemap2';
-import {plugins.sitemap.modifyTimeGetter} from 'vuepress-plugin-sitemap2';
 
 import {sideBarConfig} from './configs';
     
@@ -18,8 +17,11 @@ export default defineUserConfig({
   description: 'FreeBSD 简体中文手册',
 
   theme: defaultTheme({
-    logo: 'https://handbook.bsdcn.org/favicon.ico',
+    logo: '/favicon.ico',
     sidebar: sideBarConfig,
+    modifyTimeGetter: (page) =>
+    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
+})
   }),
   
   plugins: [
@@ -30,9 +32,6 @@ export default defineUserConfig({
      sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
     }),
-    plugins.sitemap.modifyTimeGetter({
-  modifyTimeGetter: (page) =>
-    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
-})
+
   ],
 });
