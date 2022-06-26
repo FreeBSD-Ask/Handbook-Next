@@ -32,7 +32,7 @@ export default defineUserConfig({
     }),
          sitemapPlugin({
   modifyTimeGetter: (page) => 
-             fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();,
+             'fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();',
 })
 
   ],
