@@ -11,6 +11,11 @@ import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 
 import {sideBarConfig} from './configs';
 
+  ({
+  modifyTimeGetter: (page) =>
+    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
+  }),
+    
 export default defineUserConfig({
   lang: 'zh-CN',
   title: 'FreeBSD 简体中文手册',
@@ -21,10 +26,7 @@ export default defineUserConfig({
     sidebar: sideBarConfig,
   }),
 
-  ({
-  modifyTimeGetter: (page) =>
-    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
-}),
+
 
   plugins: [
     fullTextSearchPlugin,
