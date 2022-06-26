@@ -28,8 +28,10 @@ export default defineUserConfig({
     }),
     sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
-      modifyTimeGetter: (page) => 
-        'fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();',
+      ({
+    modifyTimeGetter: (page) =>
+      'fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();'
+})
     }),
 
 
