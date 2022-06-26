@@ -10,11 +10,6 @@ import {fullTextSearchPlugin} from 'vuepress2-plugin-full-text-search';
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 
 import {sideBarConfig} from './configs';
-
-  ({
-  modifyTimeGetter: (page) =>
-    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
-  }),
     
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -25,9 +20,7 @@ export default defineUserConfig({
     logo: 'https://handbook.bsdcn.org/favicon.ico',
     sidebar: sideBarConfig,
   }),
-
-
-
+  
   plugins: [
     fullTextSearchPlugin,
     googleAnalyticsPlugin({
@@ -36,5 +29,9 @@ export default defineUserConfig({
      sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
     }),
+    plugins.sitemap.modifyTimeGetter({
+  modifyTimeGetter: (page) =>
+    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
+})
   ],
 });
