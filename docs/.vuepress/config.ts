@@ -19,8 +19,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
-    lastUpdated: true,
-    lastUpdatedText: 'Last Updated',
+    lastUpdatedText: '上次更新',
   }),
   
   plugins: [
