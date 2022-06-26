@@ -19,8 +19,6 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
-    modifyTimeGetter: (page) =>
-    fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
   }),
   
   plugins: [
