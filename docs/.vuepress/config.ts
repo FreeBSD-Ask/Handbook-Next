@@ -21,7 +21,8 @@ export default defineUserConfig({
     logo: '/favicon.ico',
     sidebar: sideBarConfig,
     lastUpdated: true,
-    lastUpdatedText: '上次更新',
+    lastUpdatedText: '上次更新'
+    contributorsText: '贡献者',  
   }),
   
   plugins: [
