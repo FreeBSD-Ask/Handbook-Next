@@ -21,7 +21,6 @@ export default defineUserConfig({
     sidebar: sideBarConfig,
     modifyTimeGetter: (page) =>
     fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
-})
   }),
   
   plugins: [
