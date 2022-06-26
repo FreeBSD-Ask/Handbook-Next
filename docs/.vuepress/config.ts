@@ -27,7 +27,9 @@ export default defineUserConfig({
       id: 'G-JJRKFX86Z7',
     }),
      sitemapPlugin({
-      hostname: 'https://handbook.bsdcn.org'
+      hostname: 'https://handbook.bsdcn.org',
+      modifyTimeGetter: (page) =>
+        fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
     }),
   ],
 });
