@@ -28,10 +28,11 @@ export default defineUserConfig({
     }),
     sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
-     ({
+   
+    }),
+         sitemapPlugin({
   modifyTimeGetter: (page) => fs.statSync(app.dir.source(page.filePathRelative)).mtime.toISOString();
 })
-    }),
 
   ],
 });
