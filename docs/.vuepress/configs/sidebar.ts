@@ -116,7 +116,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-7-zhang-duo-mei-ti/7.1.-gai-shu.md',
       '/di-7-zhang-duo-mei-ti/7.2.-she-zhi-sheng-ka.md',
       '/di-7-zhang-duo-mei-ti/7.3.mp3-yin-pin.md',
-      '/di-7-zhang-duo-mei-ti/7.4.-shi-pin-hui-fang.md',
+      '/di-7-zhang-duo-mei-ti/7.4.-shi-pin-bo-fang.md',
       '/di-7-zhang-duo-mei-ti/7.5.-dian-shi-ka.md',
       '/di-7-zhang-duo-mei-ti/7.6.mythtv.md',
       '/di-7-zhang-duo-mei-ti/7.7.-tu-xiang-sao-miao-yi.md',
