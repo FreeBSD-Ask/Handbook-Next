@@ -126,9 +126,9 @@ export const sideBarConfig: SidebarConfig = [
     text: '第8章 配置 FreeBSD 内核',
     children: [
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.1.-gai-shu.md',
-      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.2.-wei-shi-mo-yao-gou-jian-zi-ding-yi-nei-he.md',
+      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.2.-wei-shi-mo-yao-bian-yi-zi-ding-yi-nei-he.md',
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.3.-liu-lan-xi-tong-ying-jian.md',
-      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-gou-jian-yu-an-zhuang-zi-ding-yi-nei-he.md',
+      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-bian-yi-yu-an-zhuang-zi-ding-yi-nei-he.md',
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.md',
     ],
   },
