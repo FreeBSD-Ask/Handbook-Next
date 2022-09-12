@@ -5,10 +5,6 @@ blockquote > p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-div.phpdoc-api-generated-page
-  main
-    div.content__default,
-    footer.page-edit,
-    div.page-nav
-      // Display full with the API pages
-      max-width: 100%
+div.theme-default-content:not(.custom) {
+    max-width: 100%;
+}
