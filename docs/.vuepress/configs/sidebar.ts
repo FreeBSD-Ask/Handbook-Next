@@ -194,7 +194,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.1.-gai-shu.md',
       '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.2.freebsd-de-yin-dao-guo-cheng.md',
       '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.3.-device-hints.md',
-      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.4.-guan-ji-shun-xu.md',
+      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.4.-guan-ji-liu-cheng.md',
     ],
   },
   {
