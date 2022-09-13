@@ -189,12 +189,12 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第13章 FreeBSD 的启动过程',
+    text: '第13章 FreeBSD 的引导过程',
     children: [
-      '/di-13-zhang-freebsd-de-qi-dong-guo-cheng/13.1.-gai-shu.md',
-      '/di-13-zhang-freebsd-de-qi-dong-guo-cheng/13.2.-freebsd-de-qi-dong-guo-cheng.md',
-      '/di-13-zhang-freebsd-de-qi-dong-guo-cheng/13.3.-device-hints.md',
-      '/di-13-zhang-freebsd-de-qi-dong-guo-cheng/13.4.-guan-ji-shun-xu.md',
+      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.1.-gai-shu.md',
+      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.2.freebsd-de-yin-dao-guo-cheng.md',
+      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.3.-device-hints.md',
+      '/di-13-zhang-freebsd-de-yin-dao-guo-cheng/13.4.-guan-ji-shun-xu.md',
     ],
   },
   {
