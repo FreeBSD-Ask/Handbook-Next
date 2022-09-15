@@ -201,7 +201,7 @@ export const sideBarConfig: SidebarConfig = [
     text: '第14章 安全',
     children: [
       '/di-14-zhang-an-quan/14.1.-gai-shu.md',
-      '/di-14-zhang-an-quan/14.2.-jie-shao.md',
+      '/di-14-zhang-an-quan/14.2.-jian-jie.md',
       '/di-14-zhang-an-quan/14.3.-yi-ci-xing-mi-ma.md',
       '/di-14-zhang-an-quan/14.4.tcp-wrapper.md',
       '/di-14-zhang-an-quan/14.5.-kerberos.md',
