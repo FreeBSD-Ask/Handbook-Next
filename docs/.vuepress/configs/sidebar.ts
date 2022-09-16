@@ -206,7 +206,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-14-zhang-an-quan/14.4.tcp-wrapper.md',
       '/di-14-zhang-an-quan/14.5.-kerberos.md',
       '/di-14-zhang-an-quan/14.6.-openssl.md',
-      '/di-14-zhang-an-quan/14.7.-ipsec-shang-de-vpn.md',
+      '/di-14-zhang-an-quan/14.7.ipsec-vpn.md',
       '/di-14-zhang-an-quan/14.8.-openssh.md',
       '/di-14-zhang-an-quan/14.9.-wen-jian-xi-tong-fang-wen-kong-zhi-biao.md',
       '/di-14-zhang-an-quan/14.10.-jian-ce-di-san-fang-an-quan-wen-ti.md',
