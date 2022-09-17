@@ -208,7 +208,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-14-zhang-an-quan/14.6.-openssl.md',
       '/di-14-zhang-an-quan/14.7.ipsec-vpn.md',
       '/di-14-zhang-an-quan/14.8.-openssh.md',
-      '/di-14-zhang-an-quan/14.9.-wen-jian-xi-tong-fang-wen-kong-zhi-biao.md',
+      '/di-14-zhang-an-quan/14.9.-wen-jian-xi-tong-fang-wen-kong-zhi-lie-biao.md',
       '/di-14-zhang-an-quan/14.10.-jian-ce-di-san-fang-an-quan-wen-ti.md',
       '/di-14-zhang-an-quan/14.11.freebsd-an-quan-gong-gao.md',
       '/di-14-zhang-an-quan/14.12.-jin-cheng-shen-ji.md',
@@ -286,7 +286,7 @@ export const sideBarConfig: SidebarConfig = [
   {
     text: '第20章 Z 文件系统 ZFS',
     children: [
-      '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.1.-shi-mo-shi-zfs-yu-zhong-bu-tong.md',
+      '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.1.-shi-shi-mo-shi-zfs-yu-zhong-bu-tong.md',
       '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.2.-kuai-su-ru-men-zhi-nan.md',
       '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.3.-zpool-guan-li.md',
       '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.4.-zfs-guan-li.md',
