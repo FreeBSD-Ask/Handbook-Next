@@ -15,9 +15,9 @@ export const sideBarConfig: SidebarConfig = [
     text: '前言',
     children: [
       '/qian-yan/mu-biao-shou-zhong.md',
-      '/qian-yan/xiang-dui-yu-di-san-ban-de-gai-dong.md',
-      '/qian-yan/xiang-dui-yu-di-er-ban-de-gai-dong-2004.md',
-      '/qian-yan/xiang-dui-yu-di-yi-ban-de-gai-dong-2001.md',
+      '/qian-yan/di-si-ban-de-zhu-yao-bian-hua.md',
+      '/qian-yan/di-san-ban-de-zhu-yao-bian-hua-2004.md',
+      '/qian-yan/qian-yan/di-er-ban-de-zhu-yao-bian-hua-2001.md',
       '/qian-yan/ben-shu-de-zu-zhi-jie-gou.md',
       '/qian-yan/ben-shu-zhong-shi-yong-de-yi-xie-yue-ding.md',
       '/qian-yan/zhi-xie.md',
