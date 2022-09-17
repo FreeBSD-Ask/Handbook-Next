@@ -484,7 +484,7 @@ export const sideBarConfig: SidebarConfig = [
     children: ['/shu-yu-biao.md'],
   },
   {
-    text: '签名',
-    children: ['/qian-ming.md'],
+    text: '后记',
+    children: ['/hou-ji.md'],
   },
 ];
