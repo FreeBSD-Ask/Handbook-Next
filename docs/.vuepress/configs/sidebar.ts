@@ -17,7 +17,7 @@ export const sideBarConfig: SidebarConfig = [
       '/qian-yan/mu-biao-shou-zhong.md',
       '/qian-yan/di-si-ban-de-zhu-yao-bian-hua.md',
       '/qian-yan/di-san-ban-de-zhu-yao-bian-hua-2004.md',
-      '/qian-yan/qian-yan/di-er-ban-de-zhu-yao-bian-hua-2001.md',
+      '/qian-yan/di-er-ban-de-zhu-yao-bian-hua-2001.md',
       '/qian-yan/ben-shu-de-zu-zhi-jie-gou.md',
       '/qian-yan/ben-shu-zhong-shi-yong-de-yi-xie-yue-ding.md',
       '/qian-yan/zhi-xie.md',
