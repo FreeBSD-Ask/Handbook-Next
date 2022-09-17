@@ -7,9 +7,21 @@
 import type {SidebarConfig} from '@vuepress/theme-default';
 
 export const sideBarConfig: SidebarConfig = [
-  {
+   {
     text: 'FreeBSD 手册翻译项目',
-    children: ['/README.md', '/freebsd-shou-ce.md', '/gai-shu.md', '/yi-zhe-shuo-ming.md'],
+    children: ['/README.md'],
+   },
+   {
+    text: '译者说明',
+    children: ['/yi-zhe-shuo-ming.md'],
+   },
+   {
+    text: 'FreeBSD 手册',
+    children: ['/freebsd-shou-ce.md'],
+   },
+   {
+    text: '概述',
+    children: ['/gai-shu.md'],
   },
   {
     text: '前言',
