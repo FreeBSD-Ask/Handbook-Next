@@ -60,7 +60,7 @@ export default defineUserConfig({
               },
               startScreen: {
                 recentSearchesTitle: "搜索历史",
-                noRecentSearchesText: "没有搜索历史",
+                noRecentSearchesText: "无搜索历史",
                 saveRecentSearchButtonTitle: "保存至搜索历史",
                 removeRecentSearchButtonTitle: "从搜索历史中移除",
                 favoriteSearchesTitle: "收藏",
@@ -74,7 +74,7 @@ export default defineUserConfig({
                 selectText: "选择",
                 navigateText: "切换",
                 closeText: "关闭",
-                searchByText: "搜索提供者",
+                searchByText: "搜索提供",
               },
               noResultsScreen: {
                 noResultsText: "无法找到相关结果",
