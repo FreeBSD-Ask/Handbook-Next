@@ -4,7 +4,7 @@
   "main": "index.js",
   "name": "handbook-next",
   "version": "1.0.0",
-  "devdependencies": {
+  "dependencies": {
     "vuepress": "2.0.0-beta.51",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.51",
     "vuepress-plugin-sitemap2": "2.0.0-beta.103",
