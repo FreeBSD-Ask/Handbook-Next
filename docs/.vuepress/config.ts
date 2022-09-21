@@ -39,7 +39,7 @@ export default defineUserConfig({
     seoPlugin({
       hostname: 'https://handbook.bsdcn.org',
     }),
-	 docsearchPlugin({
+    docsearchPlugin({
       appId: 'UC6DQQ5A2K',
       apiKey: 'f343b344e3fcc957062a351fcabbc78c',
       indexName: 'freebsd',
@@ -48,6 +48,6 @@ export default defineUserConfig({
           placeholder: "搜索",
         },
       },
-	 }),
+    }),
   ],
 });
