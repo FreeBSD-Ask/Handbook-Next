@@ -9,6 +9,7 @@ import { defineUserConfig } from '@vuepress/cli'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { seoPlugin } from 'vuepress-plugin-seo2'
 import { defaultTheme } from '@vuepress/theme-default'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 import {sideBarConfig} from './configs'
     
