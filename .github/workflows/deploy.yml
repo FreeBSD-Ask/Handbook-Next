@@ -36,7 +36,7 @@ jobs:
         run: yarn --frozen-lockfile
         
       - name: Install CJK Fonts to Export PDF
-        run: sudo apt install fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy fonts-noto-cjk
+        run: git clone https://github.com/ykla/ttf-mswin11-zh-deb && cd ttf-mswin11-zh-deb && sudo dpkg -i ttf-ms-win11-*.deb
         
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
