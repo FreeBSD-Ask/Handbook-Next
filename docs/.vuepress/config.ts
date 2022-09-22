@@ -34,7 +34,7 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-JJRKFX86Z7',
     }),
-  backToTopPlugin(),
+    backToTopPlugin(),
     sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
     }),
@@ -81,7 +81,7 @@ export default defineUserConfig({
               noResultsScreen: {
                 noResultsText: "无法找到相关结果",
                 suggestedQueryText: "你可以尝试搜索",
-                reportMissingResultsText: "你认为该搜索应该有结果？",
+                reportMissingResultsText: "没有找到应有的搜索结果？",
                 reportMissingResultsLinkText: "点击反馈",
               },	  
 	     },
