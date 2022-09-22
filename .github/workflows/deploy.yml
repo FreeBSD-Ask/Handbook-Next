@@ -27,14 +27,17 @@ jobs:
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-3-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-
+        
+      - name: Install CJK Fonts to export PDF
+        run: apt install fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy fonts-noto-cjk
+        
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
 
