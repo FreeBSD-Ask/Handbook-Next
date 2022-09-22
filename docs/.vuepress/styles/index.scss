@@ -15,8 +15,10 @@ div.theme-default-content:not(.custom) {
   .page-edit,
   .page-nav {
     display: none;
-  },
-  .glossary-table {
-    zoom: .5;
   }
+}
+@media print {
+	.glossary-table {
+		zoom: .5;
+	}
 }
