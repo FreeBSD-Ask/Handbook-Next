@@ -36,7 +36,7 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Build VuePress site
-        run: yarn docs:build
+        run: yarn docs:build && yarn docs:export
 
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
