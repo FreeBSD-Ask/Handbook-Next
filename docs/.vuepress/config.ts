@@ -10,6 +10,7 @@ import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { seoPlugin } from 'vuepress-plugin-seo2'
 import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 import {sideBarConfig} from './configs'
     
@@ -33,6 +34,7 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-JJRKFX86Z7',
     }),
+  backToTopPlugin(),
     sitemapPlugin({
       hostname: 'https://handbook.bsdcn.org',
     }),
