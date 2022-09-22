@@ -35,8 +35,8 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
         
-      - name: Install CJK Fonts to export PDF
-        run: apt install fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy fonts-noto-cjk
+      - name: Install CJK Fonts to Export PDF
+        run: sudo apt install fonts-wqy-microhei fonts-wqy-zenhei xfonts-wqy fonts-noto-cjk
         
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
