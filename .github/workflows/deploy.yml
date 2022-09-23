@@ -40,6 +40,15 @@ jobs:
         
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
+        
+      - name: Release PDF
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: docs/.vuepress/dist/vuepress-*.pdf
+          
+      - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
+        run: mv docs/.vuepress/dist/vuepress-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
 
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
