@@ -51,8 +51,8 @@ jobs:
         env:
        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} ##发布到本项目中使用该参数
           GITHUB_REPOSITORY: FreeBSD-Ask/Handbook
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           tag_name: ${{ steps.tag.outputs.release_tag }}
           files: "docs/.vuepress/dist/vuepress-*.pdf"
      
