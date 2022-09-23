@@ -41,9 +41,7 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
         
-      - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
-        run: mv docs/.vuepress/dist/vuepress-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
-      
+
       - name: Generate release tag
         id: tag
         run: |
@@ -54,8 +52,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.tag.outputs.release_tag }}
-          files: "docs/.vuepress/dist/FreeBSD-handbook-cn.pdf"
-
+          files: "docs/.vuepress/dist/vuepress-*.pdf"
+     
+      - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
+        run: mv docs/.vuepress/dist/vuepress-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
 
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
