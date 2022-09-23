@@ -43,15 +43,18 @@ jobs:
         
       - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
         run: mv docs/.vuepress/dist/vuepress-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
-        
-      - name: Release PDF
+      
+      - name: Generate release tag
+        id: tag
+        run: |
+        echo "::set-output name=release_tag::FreeBSD-Handbook-CN_$(date +"%Y.%m.%d_%H-%M")"
+      - name: Release 
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          tag_name: ${{ steps.tag.outputs.release_tag }}
           files: "docs/.vuepress/dist/FreeBSD-handbook-cn.pdf"
-        env: 
-           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          
 
 
       - name: Upload built webpages to our web server
