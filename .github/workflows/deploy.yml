@@ -41,12 +41,16 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
         
-
+      - name: Remove vuepress from PDF
+        run: |
+          sudo apt install rename 
+          rename "s/vuepress/FreeBSD-Handbook-cn/" docs/.vuepress/dist/vuepress-*.pdf
+        
       - name: Generate release tag
         id: tag
         run: |
           echo "::set-output name=release_tag::FreeBSD-Handbook-CN_$(date +"%Y.%m.%d_%H-%M")"
-          
+      
       - name: Release PDF to FreeBSD-Ask/Handbook
         uses: softprops/action-gh-release@v1
         env:
@@ -55,10 +59,10 @@ jobs:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           repository: FreeBSD-Ask/Handbook
           tag_name: ${{ steps.tag.outputs.release_tag }}
-          files: "docs/.vuepress/dist/FreeBSD-Handbook-*.pdf"
+          files: "docs/.vuepress/dist/FreeBSD-Handbook-cn-*.pdf"
      
-      - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
-        run: mv docs/.vuepress/dist/FreeBSD-Handbook-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
+      - name: Change PDF file name to FreeBSD-Handbook-CN.pdf
+        run: mv docs/.vuepress/dist/FreeBSD-Handbook-cn-*.pdf docs/.vuepress/dist/FreeBSD-简体中文手册.pdf
 
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
