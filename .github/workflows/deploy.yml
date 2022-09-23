@@ -46,6 +46,8 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: "docs/.vuepress/dist/vuepress-*.pdf"
+        env: 
+           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           
       - name: Sync PDF file name to FreeBSD-Handbook-CN.pdf
         run: mv docs/.vuepress/dist/vuepress-*.pdf docs/.vuepress/dist/FreeBSD-handbook-cn.pdf
