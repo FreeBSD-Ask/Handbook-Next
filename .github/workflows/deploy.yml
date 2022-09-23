@@ -35,8 +35,12 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
         
-      - name: Install CJK Fonts to Export PDF
-        run: sudo apt install xfonts-encodings xfonts-utils && git clone https://github.com/ykla/ttf-mswin11-zh-deb && cd ttf-mswin11-zh-deb && sudo dpkg -i ttf-ms-win11-*.deb
+      - name: Install zh-CN Fonts for Export PDF
+        run: |
+         sudo apt install xfonts-encodings xfonts-utils
+         git clone https://github.com/ykla/ttf-mswin11-zh-deb
+         cd ttf-mswin11-zh-deb
+         sudo dpkg -i ttf-ms-win11-*.deb
         
       - name: Build VuePress site
         run: yarn docs:build && yarn docs:export
@@ -44,7 +48,8 @@ jobs:
       - name: Remove vuepress from PDF
         run: |
           sudo apt install rename 
-          rename "s/vuepress/FreeBSD-Handbook-cn/" docs/.vuepress/dist/vuepress-*.pdf
+          cd docs/.vuepress/dist/
+          rename -v "s/vuepress/FreeBSD-Handbook-cn/" vuepress-*.pdf
         
       - name: Generate release tag
         id: tag
