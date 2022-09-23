@@ -26,7 +26,6 @@ jobs:
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           tag_name: ${{ steps.tag.outputs.release_tag }}
           files: "ttf-mswin11-zh-deb/ttf-ms-win11-*.deb"
-          repository: FreeBSD-Ask/Handbook
           body: ${{ github.sha }}
         env:
           GITHUB_REPOSITORY: FreeBSD-Ask/Handbook
