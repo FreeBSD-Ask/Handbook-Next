@@ -8,6 +8,17 @@ export default defineUserConfig({
     const bIndex = routeOrder.findIndex(route => route === pageB.path)
     return aIndex - bIndex
   },
+  pdfOptions: {
+    format: 'A4',
+    displayHeaderFooter: true,
+    headerTemplate,
+    footerTemplate,
+    margin: {
+      bottom: 70,
+      left: 25,
+      right: 25,
+      top: 70,
+    },
 });
 
 const routeOrder = [
@@ -83,7 +94,6 @@ const routeOrder = [
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.1.-gai-shu.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.2.-wei-shi-mo-yao-bian-yi-zi-ding-yi-nei-he.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.3.-liu-lan-xi-tong-ying-jian.html',
-    '/di-8-zhang-pei-zhi-freebsd-nei-he/8.4.-pei-zhi-wen-jian.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-bian-yi-yu-an-zhuang-zi-ding-yi-nei-he.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.html',
     '/di-9-zhang-da-yin/9.1.-kuai-su-ru-men.html',
@@ -289,3 +299,11 @@ const routeOrder = [
     '/shu-yu-biao.html',
     '/hou-ji.html',
     ]
+
+const headerTemplate = `<div style="width: 100%; display: flex; justify-content: center; align-items: center; color: lightgray; border-bottom: solid lightgray 1px; padding-bottom: 10px; font-size: 10px;">
+  <span class="title"></span>
+</div>`
+
+const footerTemplate = `<div style="width: 100%; display: flex; justify-content: center; align-items: center; color: lightgray; border-top: solid lightgray 1px; padding-top: 10px; font-size: 10px;">
+  <span class="pageNumber"></span> - <span class="totalPages"></span>
+</div>`
