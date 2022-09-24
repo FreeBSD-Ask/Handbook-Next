@@ -3,6 +3,11 @@ import { defineUserConfig } from "@condorhero/vuepress-plugin-export-pdf-v2";
 
 export default defineUserConfig({
   outDir: "docs/.vuepress/dist/",
+  sorter: (pageA, pageB) => {
+    const aIndex = routeOrder.findIndex(route => route === pageA.path)
+    const bIndex = routeOrder.findIndex(route => route === pageB.path)
+    return aIndex - bIndex
+  },
 });
 
 const routeOrder = [
