@@ -20,6 +20,10 @@ export const sideBarConfig: SidebarConfig = [
     children: ['/freebsd-shou-ce.md'],
    },
    {
+    text: '目录',
+    children: ['SUMMARY.md'],
+   },
+   {
     text: '概述',
     children: ['/gai-shu.md'],
   },
