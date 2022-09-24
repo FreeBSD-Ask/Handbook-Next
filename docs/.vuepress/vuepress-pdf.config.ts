@@ -83,6 +83,7 @@ const routeOrder = [
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.1.-gai-shu.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.2.-wei-shi-mo-yao-bian-yi-zi-ding-yi-nei-he.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.3.-liu-lan-xi-tong-ying-jian.html',
+    '/di-8-zhang-pei-zhi-freebsd-nei-he/8.4.-pei-zhi-wen-jian.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-bian-yi-yu-an-zhuang-zi-ding-yi-nei-he.html',
     '/di-8-zhang-pei-zhi-freebsd-nei-he/8.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.html',
     '/di-9-zhang-da-yin/9.1.-kuai-su-ru-men.html',
