@@ -21,7 +21,7 @@ export const sideBarConfig: SidebarConfig = [
    },
    {
     text: '目录',
-    children: ['SUMMARY.md'],
+    children: ['/SUMMARY.md'],
    },
    {
     text: '概述',
