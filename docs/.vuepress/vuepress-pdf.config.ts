@@ -25,6 +25,7 @@ const routeOrder = [
     '/index.html',
     '/yi-zhe-shuo-ming.html',
     '/freebsd-shou-ce.html',
+    '/SUMMARY.md',
     '/gai-shu.html',
     '/qian-yan/zhi-du-zhe.html',
     '/qian-yan/di-si-ban-de-zhu-yao-bian-hua.html',
