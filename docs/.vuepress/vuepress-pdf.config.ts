@@ -19,6 +19,7 @@ export default defineUserConfig({
       right: 25,
       top: 70,
     },
+  },
 });
 
 const routeOrder = [
