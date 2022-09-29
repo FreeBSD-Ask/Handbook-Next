@@ -168,7 +168,7 @@ const routeOrder = [
     '/di-17-zhang-an-quan-shi-jian-shen-ji/17.1.-gai-shu.html',
     '/di-17-zhang-an-quan-shi-jian-shen-ji/17.2.-guan-jian-shu-yu.html',
     '/di-17-zhang-an-quan-shi-jian-shen-ji/17.3.-shen-ji-pei-zhi.html',
-    '/di-17-zhang-an-quan-shi-jian-shen-ji/17.4.-shi-yong-shen-ji-zhui-zong.html',
+    '/di-17-zhang-an-quan-shi-jian-shen-ji/17.4.-shi-yong-shen-ji-gen-zong.html',
     '/di-18-zhang-cun-chu/18.1.-gai-shu.html',
     '/di-18-zhang-cun-chu/18.2.-tian-jia-ci-pan.html',
     '/di-18-zhang-cun-chu/18.3.-tiao-zheng-he-zeng-jia-ci-pan-da-xiao.html',

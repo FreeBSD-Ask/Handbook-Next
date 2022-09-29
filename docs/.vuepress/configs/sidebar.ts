@@ -264,7 +264,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-17-zhang-an-quan-shi-jian-shen-ji/17.1.-gai-shu.md',
       '/di-17-zhang-an-quan-shi-jian-shen-ji/17.2.-guan-jian-shu-yu.md',
       '/di-17-zhang-an-quan-shi-jian-shen-ji/17.3.-shen-ji-pei-zhi.md',
-      '/di-17-zhang-an-quan-shi-jian-shen-ji/17.4.-shi-yong-shen-ji-zhui-zong.md',
+      '/di-17-zhang-an-quan-shi-jian-shen-ji/17.4.-shi-yong-shen-ji-gen-zong.md',
     ],
   },
   {
