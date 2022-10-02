@@ -333,7 +333,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第23章 本地化 - i18n/L10n 的使用和设置',
+    text: '第23章 本地化——i18n/L10n 的使用和设置',
     children: [
       '/di-23-zhang-ben-di-hua-i18nl10n-de-shi-yong-he-she-zhi/23.1.-gai-shu.md',
       '/di-23-zhang-ben-di-hua-i18nl10n-de-shi-yong-he-she-zhi/23.2.-shi-yong-ben-di-hua.md',
