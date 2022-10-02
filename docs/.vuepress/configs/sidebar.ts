@@ -301,7 +301,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第20章 Z 文件系统 ZFS',
+    text: '第20章 Z 文件系统（ZFS）',
     children: [
       '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.1.-shi-shi-mo-shi-zfs-yu-zhong-bu-tong.md',
       '/di-20-zhang-z-wen-jian-xi-tong-zfs/20.2.-kuai-su-ru-men-zhi-nan.md',
