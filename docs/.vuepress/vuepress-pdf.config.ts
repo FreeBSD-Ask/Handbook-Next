@@ -231,7 +231,7 @@ const routeOrder = [
     '/di-si-bu-fen-wang-luo-tong-xun.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.1.-gai-shu.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.2.-chuan-hang-shu-yu-he-ying-jian.html',
-    '/di-27-zhang-chuan-hang-tong-xin/27.3.-zhong-duan-ji.html',
+    '/di-27-zhang-chuan-hang-tong-xin/27.3.-zhong-duan.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.4.-bo-ru-fu-wu.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.5.-bo-chu-fu-wu.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.6.-she-zhi-chuan-hang-kong-zhi-tai.html',

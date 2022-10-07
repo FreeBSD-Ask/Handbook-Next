@@ -380,7 +380,7 @@ export const sideBarConfig: SidebarConfig = [
     children: [
       '/di-27-zhang-chuan-hang-tong-xin/27.1.-gai-shu.md',
       '/di-27-zhang-chuan-hang-tong-xin/27.2.-chuan-hang-shu-yu-he-ying-jian.md',
-      '/di-27-zhang-chuan-hang-tong-xin/27.3.-zhong-duan-ji.md',
+      '/di-27-zhang-chuan-hang-tong-xin/27.3.-zhong-duan.md',
       '/di-27-zhang-chuan-hang-tong-xin/27.4.-bo-ru-fu-wu.md',
       '/di-27-zhang-chuan-hang-tong-xin/27.5.-bo-chu-fu-wu.md',
       '/di-27-zhang-chuan-hang-tong-xin/27.6.-she-zhi-chuan-hang-kong-zhi-tai.md',
