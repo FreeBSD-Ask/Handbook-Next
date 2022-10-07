@@ -347,7 +347,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.1.-gai-shu.md',
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.2.-freebsd-geng-xin.md',
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.3.-geng-xin-bootcode.md',
-      '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.4.-geng-xin-wen-dang-ji.md',
+      '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.4.-geng-xin-wen-dang.md',
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.5.-zhui-zong-kai-fa-fen-zhi.md',
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.6.-cong-yuan-dai-ma-geng-xin-freebsd.md',
       '/di-24-zhang-geng-xin-yu-sheng-ji-freebsd/24.7.-duo-tai-ji-qi-de-sheng-ji.md',
@@ -363,12 +363,12 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第26章 USB Device 模式 / USB OTG',
+    text: '第26章 USB 设备模式/USB OTG',
     children: [
-      '/di-26-zhang-usb-device-mo-shi-usb-otg/26.1.-gai-shu.md',
-      '/di-26-zhang-usb-device-mo-shi-usb-otg/26.2.-usb-xu-ni-chuan-hang-duan-kou.md',
-      '/di-26-zhang-usb-device-mo-shi-usb-otg/26.3.-usb-device-mo-shi-wang-luo-jie-kou.md',
-      '/di-26-zhang-usb-device-mo-shi-usb-otg/26.4.-usb-xu-ni-cun-chu-she-bei.md',
+      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.1.-gai-shu.md',
+      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.2.-usb-xu-ni-chuan-hang-duan-kou.md',
+      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.3.-usb-device-mo-shi-wang-luo-jie-kou.md',
+      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.4.-usb-xu-ni-cun-chu-she-bei.md',
     ],
   },
   {
