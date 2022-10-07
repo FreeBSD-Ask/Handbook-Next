@@ -372,7 +372,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第三部分：网络通讯',
+    text: '第四部分：网络通讯',
     children: ['/di-si-bu-fen-wang-luo-tong-xun.md'],
   },
   {
