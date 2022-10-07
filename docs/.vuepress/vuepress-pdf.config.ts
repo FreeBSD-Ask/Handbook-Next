@@ -226,7 +226,7 @@ const routeOrder = [
     '/di-25-zhang-dtrace/25.4.-shi-yong-dtrace.html',
     '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.1.-gai-shu.html',
     '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.2.-usb-xu-ni-chuan-hang-duan-kou.html',
-    '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.3.-usb-device-mo-shi-wang-luo-jie-kou.html',
+    '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.3.usb-she-bei-mo-shi-wang-luo-jie-kou.html',
     '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.4.-usb-xu-ni-cun-chu-she-bei.html',
     '/di-si-bu-fen-wang-luo-tong-xun.html',
     '/di-27-zhang-chuan-hang-tong-xin/27.1.-gai-shu.html',

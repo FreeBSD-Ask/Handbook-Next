@@ -367,7 +367,7 @@ export const sideBarConfig: SidebarConfig = [
     children: [
       '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.1.-gai-shu.md',
       '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.2.-usb-xu-ni-chuan-hang-duan-kou.md',
-      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.3.-usb-device-mo-shi-wang-luo-jie-kou.md',
+      '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.3.usb-she-bei-mo-shi-wang-luo-jie-kou.md',
       '/di-26-zhang-usb-she-bei-mo-shi-usb-otg/26.4.-usb-xu-ni-cun-chu-she-bei.md',
     ],
   },
