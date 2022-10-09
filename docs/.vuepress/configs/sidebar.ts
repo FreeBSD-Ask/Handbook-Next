@@ -145,7 +145,7 @@ export const sideBarConfig: SidebarConfig = [
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.2.-wei-shi-mo-yao-bian-yi-zi-ding-yi-nei-he.md',
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.3.-liu-lan-xi-tong-ying-jian.md',
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.4.-pei-zhi-wen-jian.md',
-      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-bian-yi-yu-an-zhuang-zi-ding-yi-nei-he.md',
+      '/di-8-zhang-pei-zhi-freebsd-nei-he/8.5.-bian-yi-yu-an-zhuang-ding-zhi-nei-he.md',
       '/di-8-zhang-pei-zhi-freebsd-nei-he/8.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.md',
     ],
   },
@@ -153,7 +153,7 @@ export const sideBarConfig: SidebarConfig = [
     text: '第9章 打印',
     children: [
       '/di-9-zhang-da-yin/9.1.-kuai-su-ru-men.md',
-      '/di-9-zhang-da-yin/9.2.-da-yin-ji-lian-jie.md',
+      '/di-9-zhang-da-yin/9.2.-lian-jie-da-yin-ji.md',
       '/di-9-zhang-da-yin/9.3.-chang-jian-de-ye-mian-miao-shu-yu-yan.md',
       '/di-9-zhang-da-yin/9.4.-zhi-jie-da-yin.md',
       '/di-9-zhang-da-yin/9.5.lpd-hang-shi-da-yin-ji-cheng-xu.md',
