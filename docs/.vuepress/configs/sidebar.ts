@@ -183,7 +183,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第13章 WINE',
+    text: '第12章 WINE',
     children: [
 		'/di-12-zhang-wine/12.1.-gai-shu.md',
 		'/di-12-zhang-wine/12.2.wine-gai-shu-he-gai-nian.md',
