@@ -354,7 +354,7 @@ export const sideBarConfig: SidebarConfig = [
     ],
   },
   {
-    text: '第25章 更新与升级 FreeBSD',
+    text: '第25章 FreeBSD 更新与升级',
     children: [
 		'/di-25-zhang-freebsd-geng-xin-yu-sheng-ji/25.1.-gai-shu.md',
 		'/di-25-zhang-freebsd-geng-xin-yu-sheng-ji/25.2.-geng-xin-freebsd.md',
@@ -450,7 +450,7 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-32-zhang-fang-huo-qiang/32.3.pf.md',
 		'/di-32-zhang-fang-huo-qiang/32.4.ipfw.md',
 		'/di-32-zhang-fang-huo-qiang/32.5.ipfilter-ipf.md',
-		'/di-32-zhang-fang-huo-qiang/31.6.blacklistd.md',
+		'/di-32-zhang-fang-huo-qiang/32.6.blacklistd.md',
     ],
   },
   {

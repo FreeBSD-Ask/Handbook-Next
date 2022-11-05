@@ -276,7 +276,7 @@ const routeOrder = [
 		'/di-32-zhang-fang-huo-qiang/32.3.pf.html',
 		'/di-32-zhang-fang-huo-qiang/32.4.ipfw.html',
 		'/di-32-zhang-fang-huo-qiang/32.5.ipfilter-ipf.html',
-		'/di-32-zhang-fang-huo-qiang/31.6.blacklistd.html',
+		'/di-32-zhang-fang-huo-qiang/32.6.blacklistd.html',
 		'/di-33-zhang-gao-ji-wang-luo/33.1.-gai-shu.html',
 		'/di-33-zhang-gao-ji-wang-luo/33.2.-wang-guan-he-lu-you.html',
 		'/di-33-zhang-gao-ji-wang-luo/33.3.-wu-xian-wang-luo.html',
