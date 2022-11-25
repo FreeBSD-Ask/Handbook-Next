@@ -491,7 +491,7 @@ export const sideBarConfig: SidebarConfig = [
       '/fu-lu-b.-shu-mu/b.4.-kai-fa-zhi-nan.md',
       '/fu-lu-b.-shu-mu/b.5.-shen-ru-cao-zuo-xi-tong.md',
       '/fu-lu-b.-shu-mu/b.6.-an-quan-xing-can-kao-wen-xian.md',
-      '/fu-lu-b.-shu-mu/b.7.-ying-jian-can-kao.md',
+      '/fu-lu-b.-shu-mu/b.7.-ying-jian-can-kao-wen-xian.md',
       '/fu-lu-b.-shu-mu/b.8.-unix-li-shi.md',
       '/fu-lu-b.-shu-mu/b.9.-qi-kan-he-za-zhi.md',
     ],
