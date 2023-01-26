@@ -35,39 +35,8 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
         
-      - name: Install zh-CN Fonts for Export PDF
-        run: |
-         sudo apt install xfonts-encodings xfonts-utils
-         git clone https://github.com/ykla/ttf-mswin11-zh-deb
-         cd ttf-mswin11-zh-deb
-         sudo dpkg -i ttf-ms-win11-*.deb
-        
       - name: Build VuePress site and Export PDF
-        run: yarn docs:build && yarn docs:export
-        
-      - name: Remove vuepress from PDF
-        run: |
-          sudo apt install rename 
-          cd docs/.vuepress/dist/
-          rename -v "s/vuepress/FreeBSD-Handbook-cn/" vuepress-*.pdf
-        
-      - name: Generate release tag
-        id: tag
-        run: |
-          echo "::set-output name=release_tag::FreeBSD-Handbook-CN_$(date +"%Y.%m.%d_%H-%M")"
-      
-      - name: Release PDF to FreeBSD-Ask/Handbook
-        uses: softprops/action-gh-release@v1
-        env:
-          GITHUB_REPOSITORY: FreeBSD-Ask/Handbook
-        with:
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          repository: FreeBSD-Ask/Handbook
-          tag_name: ${{ steps.tag.outputs.release_tag }}
-          files: "docs/.vuepress/dist/FreeBSD-Handbook-cn-*.pdf"
-     
-      - name: Change PDF file name to FreeBSD-Handbook-CN.pdf
-        run: mv docs/.vuepress/dist/FreeBSD-Handbook-cn-*.pdf docs/.vuepress/dist/FreeBSD-简体中文手册.pdf
+        run: yarn docs:build 
         
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
