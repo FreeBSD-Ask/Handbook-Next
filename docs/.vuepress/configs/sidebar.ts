@@ -129,13 +129,15 @@ export const sideBarConfig: SidebarConfig = [
 	],
   },
   {
-    text: '第7章 桌面应用程序',
+    text: '第7章 桌面环境',
     children: [
-		'/di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.1.-gai-shu.md',
-		'/di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.2.-liu-lan-qi.md',
-		'/di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.3.-sheng-chan-li-gong-ju.md',
-		'/di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.4.-wen-dang-yue-du-qi.md',
-		'/di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.5.-cai-wu.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.1.-gai-shu.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.2.-zhuo-mian-huan-jing.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.3.-liu-lan-qi.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.4.-kai-fa-gong-ju.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.5.-zhuo-mian-sheng-chan-li-gong-ju.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.6.-wen-dang-yue-du-qi.md',
+		'/di-7-zhang-zhuo-mian-huan-jing/7.7.-cai-wu.md',
     ],
   },
   {
