@@ -101,14 +101,10 @@ export const sideBarConfig: SidebarConfig = [
     text: '第5章 X Window 系统',
     children: [
 		'/di-5-zhang-xwindow-xi-tong/5.1.-gai-shu.md',
-		'/di-5-zhang-xwindow-xi-tong/5.2.-shu-yu.md',
-		'/di-5-zhang-xwindow-xi-tong/5.3.-an-zhuang-xorg.md',
+		'/di-5-zhang-xwindow-xi-tong/5.2.-an-zhuang-xorg.md',
+		'/di-5-zhang-xwindow-xi-tong/5.3.-xian-ka-qu-dong.md',
 		'/di-5-zhang-xwindow-xi-tong/5.4.-xorg-pei-zhi.md',
 		'/di-5-zhang-xwindow-xi-tong/5.5.-zai-x11-zhong-shi-yong-zi-ti.md',
-		'/di-5-zhang-xwindow-xi-tong/5.6.x-xian-shi-guan-li-qi.md',
-		'/di-5-zhang-xwindow-xi-tong/5.7.-zhuo-mian-huan-jing.md',
-		'/di-5-zhang-xwindow-xi-tong/5.8.-shi-yong-compiz-fusion.md',
-		'/di-5-zhang-xwindow-xi-tong/5.9.-gu-zhang-pai-chu.md',
     ],
   },
   {
