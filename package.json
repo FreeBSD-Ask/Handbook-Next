@@ -2,7 +2,7 @@
   "author": "FreeBSD Chinese Community",
   "license": "BSD-3-Clause",
   "main": "index.js",
-  "name": "handbook-next",
+  "name": "handbook",
   "version": "2.0.0",
   "dependencies": {
     "vuepress": "2.0.0-beta.61",
