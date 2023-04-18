@@ -37,7 +37,7 @@ jobs:
         
         
       - name: Build VuePress site 
-        run: yarn build 
+        run: yarn docs:build 
         
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
