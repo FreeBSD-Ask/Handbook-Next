@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Build VuePress site
-        run: yarn build 
+        run: yarn vuepress build 
         
       - name: Upload built webpages to our web server
         uses: appleboy/scp-action@v0.1.3
