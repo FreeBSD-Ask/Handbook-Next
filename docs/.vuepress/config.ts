@@ -9,9 +9,7 @@ import { defineUserConfig } from '@vuepress/cli'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { seoPlugin } from 'vuepress-plugin-seo2'
 import { defaultTheme } from '@vuepress/theme-default'
-/*
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-*/
 import { commentPlugin } from 'vuepress-plugin-comment2'
 
 import {sideBarConfig} from './configs'
@@ -33,13 +31,13 @@ export default defineUserConfig({
   }),
   
   plugins: [
-   /* commentPlugin({
+    commentPlugin({
       provider: "Giscus",
       repo:'FreeBSD-Ask/Handbook-giscus-discussions',
       repoId:'R_kgDOIFzFKw',
       category:'General',
       categoryId:'DIC_kwDOIFzFK84CRsdz'
-    }),*/
+    }),
     googleAnalyticsPlugin({
       id: 'G-JJRKFX86Z7',
     }),
