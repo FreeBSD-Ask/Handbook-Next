@@ -141,11 +141,10 @@ export const sideBarConfig: SidebarConfig = [
     children: [
 		'/di-8-zhang-duo-mei-ti/8.1.-gai-shu.md',
 		'/di-8-zhang-duo-mei-ti/8.2.-she-zhi-sheng-ka.md',
-		'/di-8-zhang-duo-mei-ti/8.3.mp3-yin-pin.md',
-		'/di-8-zhang-duo-mei-ti/8.4.-shi-pin-bo-fang.md',
-		'/di-8-zhang-duo-mei-ti/8.5.-dian-shi-ka.md',
-		'/di-8-zhang-duo-mei-ti/8.6.mythtv.md',
-		'/di-8-zhang-duo-mei-ti/8.7.-tu-xiang-sao-miao-yi.md',
+		'/di-8-zhang-duo-mei-ti/8.3.-yin-pin-bo-fang-qi.md',
+		'/di-8-zhang-duo-mei-ti/8.4.-shi-pin-bo-fang-qi.md',
+		'/di-8-zhang-duo-mei-ti/8.5.-shi-pin-hui-yi.md',
+		'/di-8-zhang-duo-mei-ti/8.6.-tu-xiang-sao-miao-yi.md',
     ],
   },
   {
