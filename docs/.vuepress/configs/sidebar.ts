@@ -174,7 +174,7 @@ export const sideBarConfig: SidebarConfig = [
     children: [
 		'/di-11-zhang-linux-er-jin-zhi-jian-rong-ceng/11.1.-gai-shu.md',
 		'/di-11-zhang-linux-er-jin-zhi-jian-rong-ceng/11.2.-pei-zhi-linux-er-jin-zhi-jian-rong-ceng.md',
-		'/di-11-zhang-linux-er-jin-zhi-jian-rong-ceng/11.3.-linux-yong-hu-qu.md',
+		'/di-11-zhang-linux-er-jin-zhi-jian-rong-ceng/11.3.-linux-yong-hu-kong-jian.md',
 		'/di-11-zhang-linux-er-jin-zhi-jian-rong-ceng/11.4.-gao-ji-zhu-ti.md',
     ],
   },
