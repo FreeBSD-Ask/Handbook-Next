@@ -127,7 +127,7 @@ export const sideBarConfig: SidebarConfig = [
   {
     text: '第7章 网络',
     children: [
-		'/di-7-zhang-wang-luo/7.1.-gai-shu.md)',
+		'/di-7-zhang-wang-luo/7.1.-gai-shu.md',
 		'/di-7-zhang-wang-luo/7.2.-she-zhi-wang-luo.md',
 		'/di-7-zhang-wang-luo/7.3.-you-xian-wang-luo.md',
 		'/di-7-zhang-wang-luo/7.4.-wu-xian-wang-luo.md',
