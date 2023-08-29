@@ -246,8 +246,8 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-16-zhang-an-quan/16.9.-jian-ce-di-san-fang-an-quan-wen-ti.md',
 		'/di-16-zhang-an-quan/16.10.-freebsd-an-quan-gong-gao.md',
 		'/di-16-zhang-an-quan/16.11.-jin-cheng-shen-ji.md',
-		'/di-16-zhang-an-quan/16.12.-shi-yong-sudo-guan-li-quan-xian.md',
-		'/di-16-zhang-an-quan/16.13.-shi-yong-doas-lai-dai-ti-sudo.md',
+		'/di-16-zhang-an-quan/16.12.-zi-yuan-pei-e.md',
+		'/di-16-zhang-an-quan/16.13.-shi-yong-sudo-guan-li-quan-xian.md',
     ],
   },
   {
